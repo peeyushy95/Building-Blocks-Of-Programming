@@ -56,24 +56,22 @@ inline ll power(ll a, ll b) {
 /*........................................................END OF TEMPLATES.......................................................................*/
 #define SIZE 80
 
+ll fibonacci(int n){
+	if(n == 1) return 0;
+	if(n == 2) return 1;
+	
+	return fibonacci(n-1) + fibonacci(n-2);
+}
 int main(){
-	input();
+	//input();
 	
 	ll t,n;
-	ll *fib;
-	fib = (ll *) malloc(SIZE*sizeof(ll));
-	
-	fib[1]=0;
-	fib[2]=1;
-
-	for(int i = 3 ; i < SIZE ; i++)
-		fib[i] = fib[i-1] + fib[i-2];
 	
 	sl(t);
 	while(t--){
 		sl(n);
 		assert(n>0 && n<SIZE);
-		pl(fib[n]);
+		pl(fibonacci(n));
 	}
 	#ifdef Megamind
 		cout << "\nTime elapsed : " << 1.0 * clock() / CLOCKS_PER_SEC * 1000 << " ms." << endl;

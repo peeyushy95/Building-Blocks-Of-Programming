@@ -5,7 +5,7 @@
  
 #include<bits/stdc++.h>
 using namespace std;
-typedef unsigned long long ll;
+typedef  long long ll;
 #define f(a,b,c)                for(int a=b;a<c;a++)
 #define s(x)                    scanf("%d",&x);
 #define sl(x)                   scanf("%lld",&x);

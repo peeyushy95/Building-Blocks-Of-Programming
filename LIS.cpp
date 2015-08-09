@@ -55,10 +55,8 @@ inline ll power(ll a, ll b) {
 /*........................................................END OF TEMPLATES.......................................................................*/
 #define sz 1000
 
-int a[sz],dp[sz];
-int previous[sz];
+int a[sz],dp[sz],previous[sz],maxlength;
 stack<int> st;
-int maxlength ;
 
 void lis(int n){
 	int end;

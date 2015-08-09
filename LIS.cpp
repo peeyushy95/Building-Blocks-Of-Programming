@@ -58,18 +58,10 @@ inline ll power(ll a, ll b) {
 int a[sz],dp[sz];
 int previous[sz];
 stack<int> st;
-int main(){
+int maxlength ;
 
-	input();
-	int n,maxlength=0,end;
-	s(n);
-	
-	f(i,0,n) {
-		s(a[i])
-		previous[i] = -1;
-		dp[i]=1;
-	}
-	
+void lis(int n){
+	int end;
 	
 	f(i,1,n){
 		for(int j = i - 1 ; j >=0 ; j--){
@@ -83,6 +75,22 @@ int main(){
 			end = i;
 		}
 	}
+	return end;
+}
+
+int main(){
+
+	input();
+	int n,end;
+	s(n);
+	
+	f(i,0,n) {
+		s(a[i])
+		previous[i] = -1;
+		dp[i]=1;
+	}
+	
+	end = lis(n);	
 	
 	p(maxlength)
 	

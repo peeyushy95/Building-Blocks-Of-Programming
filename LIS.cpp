@@ -78,7 +78,6 @@ int main(){
 				previous[i] = j;
 			}
 		}
-		
 		if(dp[i] > maxlength){
 			maxlength = dp[i];
 			end = i;

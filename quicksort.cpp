@@ -1,6 +1,6 @@
 /*
    AUTHOR  : Peeyush Yadav
-   Problem : Quick Sort
+   Problem : Quick_Sort
 */
  
 #include<bits/stdc++.h>

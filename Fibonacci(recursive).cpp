@@ -63,9 +63,7 @@ ll fibonacci(int n){
 }
 int main(){
 	input();
-	
 	ll t,n;
-	
 	sl(t);
 	while(t--){
 		sl(n);

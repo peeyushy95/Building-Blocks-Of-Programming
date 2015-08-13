@@ -23,6 +23,7 @@ void input(){
 			//freopen("out1.txt","w",stdout);
 	#endif
 }
+
 #ifdef TRACE
 	#define trace(x)                       cerr<<__FUNCTION__<<":"<<__LINE__<<": "#x" = "<<x<<endl;
 	#define trace2(x,y)                    cerr<<__FUNCTION__<<":"<<__LINE__<<": "#x" = "<<x<<" | "#y" = "<<y<<endl;

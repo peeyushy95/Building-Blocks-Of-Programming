@@ -75,6 +75,7 @@ void qsort(int *a, int fst, int last,int mid){
 }
 
 int a[sz];
+
 int main(){
 	input();
     

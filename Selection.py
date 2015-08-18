@@ -3,6 +3,7 @@
 n = int(raw_input())
 array= map(int , raw_input().split())
 
+
 for i in range (n-1) :
     mini = array[i]
     ind  = i

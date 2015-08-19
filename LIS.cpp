@@ -59,7 +59,7 @@ inline ll power(ll a, ll b) {
 int a[sz],dp[sz],previous[sz],maxlength;
 stack<int> st;
 
-void lis(int n){
+int lis(int n){
 	int end;
 	
 	f(i,1,n){

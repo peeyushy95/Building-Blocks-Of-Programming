@@ -1,6 +1,6 @@
 /*
    AUTHOR  : Peeyush Yadav
-   Problem : Binary Search(Lower Bound)
+   Problem : upper_bound(binary search)
 */
 #include<bits/stdc++.h>
 using namespace std; typedef long long ll; typedef pair<int,int> grp;
@@ -44,7 +44,7 @@ int upperbound(int a[],int strt, int end , int value){
 	while(low <= high){
 		int mid = (low + high)/2;
 		if(a[mid] <= value) low   = mid  + 1;
-		else 				high  = mid  - 1;
+		else 		    high  = mid  - 1;
 	}
 	
 	return high + 1;

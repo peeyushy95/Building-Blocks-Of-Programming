@@ -44,7 +44,7 @@ int lowerbound(int a[],int strt, int end , int value){
 	while(low <= high){
 		int mid = (low + high)/2;
 		if(a[mid] >= value) high = mid - 1;
-		else 				low  = mid + 1;
+		else 		    low  = mid + 1;
 	}
 	
 	return low;

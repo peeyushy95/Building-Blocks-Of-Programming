@@ -47,7 +47,7 @@ int upperbound(int a[],int strt, int end , int value){
 		else 		    high  = mid  - 1;
 	}
 	
-	return high + 1;
+	return low;
 }
 int main(){
 	fast();

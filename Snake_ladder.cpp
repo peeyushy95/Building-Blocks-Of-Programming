@@ -1,5 +1,5 @@
 /*
-   AUTHOR  : Peeyush Yadav
+   AUTHOR  : Peeyush Yadav (~_~)
    Problem : https://www.hackerrank.com/challenges/the-quickest-way-up
 */
 #include<bits/stdc++.h>

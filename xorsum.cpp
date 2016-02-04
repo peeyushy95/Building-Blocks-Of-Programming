@@ -20,7 +20,7 @@ void fast(){
 		#define trace(x)
 		#define trace2(x,y)
 		#define trace3(x,y,z)
-	#endif
+	#endif 
 	
 	#define fi						first
 	#define se						second
